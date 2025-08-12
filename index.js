@@ -16,7 +16,7 @@
  */
 
 /**
- * Claude Task Master
+ * Task Master
  * A task management system for AI-driven development with Claude
  */
 
@@ -69,7 +69,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
 	program
 		.name('task-master')
-		.description('Claude Task Master CLI')
+		.description('Task Master Pro CLI')
 		.version(version);
 
 	program

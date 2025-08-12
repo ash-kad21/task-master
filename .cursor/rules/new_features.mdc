@@ -1,5 +1,5 @@
 ---
-description: Guidelines for integrating new features into the Task Master CLI
+description: Guidelines for integrating new features into the Task Master Pro CLI
 globs: scripts/modules/*.js
 alwaysApply: false
 ---

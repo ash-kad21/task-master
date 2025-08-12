@@ -1,11 +1,11 @@
 ---
-description: Describes the high-level architecture of the Task Master CLI application.
+description: Describes the high-level architecture of the Task Master Pro CLI application.
 globs: scripts/modules/*.js
 alwaysApply: false
 ---
 # Application Architecture Overview
 
-- **Modular Structure**: The Task Master CLI is built using a modular architecture, with distinct modules responsible for different aspects of the application. This promotes separation of concerns, maintainability, and testability.
+- **Modular Structure**: The Task Master Pro CLI is built using a modular architecture, with distinct modules responsible for different aspects of the application. This promotes separation of concerns, maintainability, and testability.
 
 - **Main Modules and Responsibilities**:
 
@@ -268,7 +268,7 @@ By following these patterns consistently, direct functions will properly manage 
   - **Backward Compatibility**: Seamless migration and tag resolution ensure existing workflows continue unchanged.
   - **Clarity**: The modular structure provides a clear separation of concerns, making the codebase easier to navigate and understand for developers.
 
-This architectural overview should help AI models understand the structure and organization of the Task Master CLI codebase, enabling them to more effectively assist with code generation, modification, and understanding.
+This architectural overview should help AI models understand the structure and organization of the Task Master Pro CLI codebase, enabling them to more effectively assist with code generation, modification, and understanding.
 
 ## Implementing MCP Support for a Command
 

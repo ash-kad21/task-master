@@ -1,6 +1,6 @@
 /**
  * ui.js
- * User interface functions for the Task Master CLI
+ * User interface functions for the Task Master Pro CLI
  */
 
 import chalk from 'chalk';
@@ -498,7 +498,7 @@ function displayHelp() {
 	const terminalWidth = process.stdout.columns || 100; // Default to 100 if can't detect
 
 	console.log(
-		boxen(chalk.white.bold('Task Master CLI'), {
+		boxen(chalk.white.bold('Task Master Pro CLI'), {
 			padding: 1,
 			borderColor: 'blue',
 			borderStyle: 'round',

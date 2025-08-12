@@ -1,13 +1,12 @@
 {
-	"name": "task-master-ai",
+	"name": "task-master",
 	"version": "0.24.0",
-	"description": "A task management system for ambitious AI-driven development that doesn't overwhelm and confuse Cursor.",
+	"description": "An AI-powered task-management system..." to "An AI-powered task management system for development, integrated with Cursor AI",
 	"main": "index.js",
 	"type": "module",
 	"bin": {
 		"task-master": "bin/task-master.js",
-		"task-master-mcp": "mcp-server/server.js",
-		"task-master-ai": "mcp-server/server.js"
+		"task-master-mcp": "mcp-server/server.js"
 	},
 	"workspaces": [
 		"apps/*",
@@ -40,7 +39,7 @@
 		"mcp",
 		"context"
 	],
-	"author": "Eyal Toledano",
+	"author": "Aashritha Kadiyala <aashrithacg2.21@gmail.com>",
 	"license": "MIT WITH Commons-Clause",
 	"dependencies": {
 		"@ai-sdk/amazon-bedrock": "^2.2.9",

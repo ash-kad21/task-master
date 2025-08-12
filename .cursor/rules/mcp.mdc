@@ -9,7 +9,7 @@ This document outlines the architecture and implementation patterns for the Task
 
 ## Architecture Overview (See also: [`architecture.mdc`](mdc:.cursor/rules/architecture.mdc))
 
-The MCP server acts as a bridge between external tools (like Cursor) and the core Task Master CLI logic. It leverages FastMCP for the server framework.
+The MCP server acts as a bridge between external tools (like Cursor) and the core Task Master Pro CLI logic. It leverages FastMCP for the server framework.
 
 - **Flow**: `External Tool (Cursor)` <-> `FastMCP Server` <-> `MCP Tools` (`mcp-server/src/tools/*.js`) <-> `Core Logic Wrappers` (`mcp-server/src/core/direct-functions/*.js`, exported via `task-master-core.js`) <-> `Core Modules` (`scripts/modules/*.js`)
 - **Goal**: Provide a performant and reliable way for external tools to interact with Task Master functionality without directly invoking the CLI for every operation.

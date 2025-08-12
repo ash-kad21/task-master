@@ -174,7 +174,7 @@ const research = await generateTextService({
 
 ## CLI Integration
 
-The MCP provider works seamlessly with Task Master CLI commands when running in an MCP context:
+The MCP provider works seamlessly with Task Master Pro CLI commands when running in an MCP context:
 
 ```bash
 # Generate tasks using MCP provider (if configured as main)

@@ -1,5 +1,5 @@
 
-# Claude Task Master - Product Requirements Document
+# Task Master - Product Requirements Document
 
 <PRD>
 # Technical Architecture  

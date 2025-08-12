@@ -124,7 +124,7 @@ Tasks in tasks.json have the following structure:
 
 ## Integrating with Cursor AI
 
-Claude Task Master is designed to work seamlessly with [Cursor AI](https://www.cursor.so/), providing a structured workflow for AI-driven development.
+Task Master is designed to work seamlessly with [Cursor AI](https://www.cursor.so/), providing a structured workflow for AI-driven development.
 
 ### Setup with Cursor
 
@@ -600,7 +600,7 @@ The `show` command:
 ### Starting a new project
 
 ```
-I've just initialized a new project with Claude Task Master. I have a PRD at scripts/prd.txt.
+I've just initialized a new project with Task Master. I have a PRD at scripts/prd.txt.
 Can you help me parse it and set up the initial tasks?
 ```
 

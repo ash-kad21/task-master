@@ -1,6 +1,6 @@
 /**
  * tools/index.js
- * Export all Task Master CLI tools for MCP server
+ * Export all Task Master Pro CLI tools for MCP server
  */
 
 import { registerListTasksTool } from './get-tasks.js';

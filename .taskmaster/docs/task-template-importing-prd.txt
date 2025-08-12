@@ -2,7 +2,7 @@
 
 <context>
 # Overview  
-The Task Template Importing system enables seamless integration of external task templates into the Task Master CLI through automatic file discovery. This system allows users to drop task template files into the tasks directory and immediately access them as new tag contexts without manual import commands or configuration. The solution addresses the need for multi-project task management, team collaboration through shared templates, and clean separation between permanent tasks and temporary project contexts.
+The Task Template Importing system enables seamless integration of external task templates into the Task Master Pro CLI through automatic file discovery. This system allows users to drop task template files into the tasks directory and immediately access them as new tag contexts without manual import commands or configuration. The solution addresses the need for multi-project task management, team collaboration through shared templates, and clean separation between permanent tasks and temporary project contexts.
 
 # Core Features  
 ## Silent Task Template Discovery

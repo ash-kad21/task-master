@@ -1,6 +1,6 @@
 # Task Master Test Suite
 
-This directory contains tests for the Task Master CLI. The tests are organized into different categories to ensure comprehensive test coverage.
+This directory contains tests for the Task Master Pro CLI. The tests are organized into different categories to ensure comprehensive test coverage.
 
 ## Test Structure
 

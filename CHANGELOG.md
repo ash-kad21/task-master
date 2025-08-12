@@ -1700,7 +1700,7 @@
 - [#517](https://github.com/eyaltoledano/claude-task-master/pull/517) [`e96734a`](https://github.com/eyaltoledano/claude-task-master/commit/e96734a6cc6fec7731de72eb46b182a6e3743d02) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Fix bug when updating tasks on the MCP server (#412)
 
 - [#496](https://github.com/eyaltoledano/claude-task-master/pull/496) [`efce374`](https://github.com/eyaltoledano/claude-task-master/commit/efce37469bc58eceef46763ba32df1ed45242211) Thanks [@joedanz](https://github.com/joedanz)! - Fix duplicate output on CLI help screen
-  - Prevent the Task Master CLI from printing the help screen more than once when using `-h` or `--help`.
+  - Prevent the Task Master Pro CLI from printing the help screen more than once when using `-h` or `--help`.
   - Removed redundant manual event handlers and guards for help output; now only the Commander `.helpInformation` override is used for custom help.
   - Simplified logic so that help is only shown once for both "no arguments" and help flag flows.
   - Ensures a clean, branded help experience with no repeated content.
@@ -1755,7 +1755,7 @@
 - [#517](https://github.com/eyaltoledano/claude-task-master/pull/517) [`e96734a`](https://github.com/eyaltoledano/claude-task-master/commit/e96734a6cc6fec7731de72eb46b182a6e3743d02) Thanks [@Crunchyman-ralph](https://github.com/Crunchyman-ralph)! - Fix bug when updating tasks on the MCP server (#412)
 
 - [#496](https://github.com/eyaltoledano/claude-task-master/pull/496) [`efce374`](https://github.com/eyaltoledano/claude-task-master/commit/efce37469bc58eceef46763ba32df1ed45242211) Thanks [@joedanz](https://github.com/joedanz)! - Fix duplicate output on CLI help screen
-  - Prevent the Task Master CLI from printing the help screen more than once when using `-h` or `--help`.
+  - Prevent the Task Master Pro CLI from printing the help screen more than once when using `-h` or `--help`.
   - Removed redundant manual event handlers and guards for help output; now only the Commander `.helpInformation` override is used for custom help.
   - Simplified logic so that help is only shown once for both "no arguments" and help flag flows.
   - Ensures a clean, branded help experience with no repeated content.

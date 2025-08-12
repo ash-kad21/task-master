@@ -1,6 +1,6 @@
 /**
  * commands.js
- * Command-line interface for the Task Master CLI
+ * Command-line interface for the Task Master Pro CLI
  */
 
 import { program } from 'commander';

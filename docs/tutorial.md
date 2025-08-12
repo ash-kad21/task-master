@@ -397,7 +397,7 @@ task-master expand --id=5 --research
 ### Starting a new project
 
 ```
-I've just initialized a new project with Claude Task Master. I have a PRD at .taskmaster/docs/prd.txt.
+I've just initialized a new project with Task Master. I have a PRD at .taskmaster/docs/prd.txt.
 Can you help me parse it and set up the initial tasks?
 ```
 
